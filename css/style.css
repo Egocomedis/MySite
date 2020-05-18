@@ -8,6 +8,7 @@
 
 
 body {
+	border: 2px;
 	width: 100%; /*Ширина*/
 	height: 100%; /*Высота*/
 	color: #fff; /*Цвет*/
@@ -101,9 +102,7 @@ td {
 	padding: 25px;
 }
 
-b {
-	color: black;
-}
+b {color: black}
 
 /*Футер прикреплен к низу сайта*/
 
@@ -130,3 +129,33 @@ footer, #page-wrap:after {height: 10px}
 .col2 {
 	background: #242020;
 }
+
+div.field {
+    clear:both; 
+    text-align:right;
+}
+
+div.field label {
+    margin: 2px;
+    float: left;
+}
+
+div.field input {
+    width: 350px;
+}
+
+div.field select {
+    width: 350px;
+}
+
+.form{
+    width: 25%;
+    margin: auto;
+}
+
+.send{
+    margin:5pt;
+    text-align: center;
+}
+
+textarea {resize: none}

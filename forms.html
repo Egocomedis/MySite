@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Главная</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/Note.ico">
+  <style type="text/css">
+#text {
+  width: 356px;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+	
+<header>
+	<div id="menu">
+    <a href="index.html">Главная</a> | <a href="one.html">История музыки</a> | <a href="two.html">Инструменты</a> | <a href="free.html">Музыканты</a> | <a href="about.html">Интересности</a> | <a href="forms.html">Форма</a> | <a href="js.html">JS</a>
+  </div>
+</header>
+<div id="page-wrap">
+<div class="wrapper">
+            <h3 align="center">Форма замовлення їжі у Кафе</h2>
+        <div class=form>
+            <form method="POST" action="mailto:svetkovalenko@gmail.com?subject=From my site" target="_blank">
+                <div class="main">
+                    <div class="field">
+                        <label for="n">Ім'я</label>
+                        <input type="text" id="n" name="name" title="Краще вводити латинськими літерами" placeholder="Введіть ім'я">
+                    </div>
+                    <div class="field">
+                        <label for="ln">Прізвище</label>
+                        <input type="text" id="ln" name="lastName" title="Краще вводити латинськими літерами" placeholder="Введіть прізвище">
+                    </div>
+                    <div class="field">
+                        <label for="d">Введіть номер телефону</label>
+                        <input type="tel" id="d" name="phone"  placeholder="Введіть номер телефону у форматі ххх-ххх-хххх"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                     <div class="field">
+                        <label for="b">Введіть ваш Email</label>
+                        <input type="email" id="b" name="email"  placeholder="Введіть почту">
+                    </div>
+                    <div class="field">
+                        <label for="pass">Пароль</label>
+                        <input type="password" id="pass" title="Пароль повинен бути довгим" name="pass"placeholder="Введіть пароль">
+                    </div>
+                    <div class="field">
+                        <label for="a">Адреса</label>
+                        <input type="text" id="a" name="address"  placeholder="Введіть адресу">
+                    </div>
+                    <div class="field">
+                        <label>Выберіть напій</label>
+                        <select name="List" title="Оберіть щось">
+                            <option disabled>Виберіть напій</option>
+                            <option value="None">--Нет--</option>
+                            <option value="Corona">Пиво Corona світле</option>
+                            <option value="Stella">Пиво Stella Artois безалкогольне</option>
+                            <option value="Leffe">Пиво Leffe темне</option>
+                            <option value="Sidr">Сідр Де Сад яблучний</option>
+                            <option value="Sidr2">Сідр Де Сад яблучний з соком груші</option>
+                            <option value="Fresh">Фреш морквяний</option>
+                            <option value="Fresh2">Фреш яблучний</option>
+                            <option value="Fresh3">Фреш апельсиновий</option>
+                            <option value="Fresh4">Фреш грейфрутовий</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Виберіть страву</label>
+                        <select name="List2" title="Оберіть щось">
+                            <option disabled>Виберіть страву</option>
+                            <option value="None">--Нет--</option>
+                            <option value="Rebro">Запечене теляче ребро</option>
+                            <option value="Kyrka">Курка Міланезе</option>
+                            <option value="File">Куряче філе на запеченому баклажані</option>
+                            <option value="Kotleta">Котлети з кролика</option>
+                            <option value="Sydak">Судак з овочами</option>
+                            <option value="Kachuna">Качина ніжка з картопляним пюре</option>
+                            <option value="Tela">Телятина з золотистою картоплею</option>
+                            <option value="Losos">Паровий лосось в імбирно-часниковому соусі</option>
+                            <option value="Pure">Картопляне пюре</option>
+                            </select>
+                     </div>
+                     <div class="field">
+                        <label for="num">Кількість напоїв</label>
+                        <input type="number" id="num" name="number" placeholder="Введіть кількість напоїв">
+                    </div>
+                    <div class="field">
+                        <label for="num">Кількість страв</label>
+                        <input type="number" id="num" name="number" placeholder="Введіть кількість страв">
+                    </div>
+                    <div class="send">
+                        <label for="radiogroup">Виберіть тип оплати</label><br>
+                        <input type="radio" name="radiogroup" value="MasterCard">MasterCard
+                        <input type="radio" name="radiogroup" value="Visa">Visa
+                        <input type="radio" name="radiogroup" value="WebMoney">WebMoney<br>
+                        <input type="radio" name="radiogroup" value="PayPal">PayPal
+                        <input type="radio" name="radiogroup" value="QIWI">QIWI
+                        <input type="radio" name="radiogroup" value="PayPass">PayPass
+                    </div>
+                    <div class="send">
+                        <label >Отримати</label><br>
+                        <input type="checkbox" name="bill">Рахунок
+                        <input type="checkbox" name="invoice">Накладна
+                    </div>
+                     <div class="field"></div>
+                        <label for="text" >Додаткова інформація</label><br>
+                        <textarea title="Напишіть щось" name="text" cols="40" rows="6"></textarea>
+                    </div>
+                    
+                    <input type=reset value="Очисти поля форми">
+                    <input type="submit" value="Відправити">
+            </form>
+        </div>
+</div>
+</div>
+<footer>
+  <span class="left">Все права защищены &copy; 2020</span>
+	<span class="right">Лицензионное соглашение</span>
+</footer>
+</body>
+</html>
