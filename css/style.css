@@ -159,3 +159,50 @@ div.field select {
 }
 
 textarea {resize: none}
+
+/*Lab6*/
+
+#ab {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+.ba {
+	margin: auto;
+	width: 700px;
+	margin: 20px auto 20px;
+	align-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn1:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.btn1 {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	font-weight: 200;
+	text-align: center;
+	vertical-align: middle;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.blub {
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	height: 20px;
+	width: 125px;
+	margin: 0px;
+}
+
+.bulb {
+	font-size: 16pt;
+}
