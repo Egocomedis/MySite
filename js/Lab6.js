@@ -31,11 +31,14 @@ function solver(){
 
 function calc(){
 	let sum = 0;
-	for(let i = inputVar[0].value; i <= inputVar[1].value; i++){
-			//let n = arr[i];
+	let i = inputVar[0].value;
+	do{
 			if(i % 2 == 1)
+			{	
 				sum++;
-	}
+			}
+			i++;
+	}while (i <= inputVar[1].value)
 	return sum;
 }
 
