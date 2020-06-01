@@ -27,7 +27,7 @@ document.querySelector("#clear").onclick=function(){
 function solver(){
 	checkFlag();
 	if (flag)
-		document.querySelector("#result").textContent="Сума непарних чисел від а до b дорівнює " + calc() +  " цифр";
+		document.querySelector("#result").textContent="Сума непарних чисел від а до b дорівнює " + calc();
 }
 
 function calc(){
@@ -36,7 +36,7 @@ function calc(){
 	do{
 			if(i % 2 == 1)
 			{	
-				sum++;
+				sum+=i;
 			}
 			i++;
 	}while (i <= inputVar[1].value)
